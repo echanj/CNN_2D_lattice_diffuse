@@ -1,0 +1,31 @@
+HEADER lattice2d
+! Crystal geometry information
+CRYSTAL 50 50 1
+ZMATFILE  1  carbon.zmat
+QXYZFILE  1  atom1.qxyz
+ZMATFILE  2  oxygen.zmat
+QXYZFILE  2  atom2.qxyz
+CELL 1.00 1.00 1.00 90.00000 90.00000 90.00000
+CONTACTFILE contacts.all
+SPROVRIDE 1
+OCCFILE ising2D_occ.txt
+! MC parameters
+TEMPERATURE 1.0
+MCCYCLES 1
+XYZWIDTH 0.0
+QWIDTH 0.0 
+INWIDTH 0.0 
+XYZINITW 0.0
+QINITW 0.0
+ININITW 0.0 
+INCUPDATE 1
+BADJUST 0 3.0
+!
+! For error checking, we can put some things in explicitely
+!
+NUMZMATS 2
+NUMLOCS 1
+NUMINSPRCON 0
+NUMSPRCON 1
+
+SPRCON  1.000    

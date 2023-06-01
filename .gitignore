@@ -1,0 +1,5 @@
+notes_*
+*.swp
+.ipynb_checkpoints
+commit_to_git.sh
+simple_lattice_CNN/.ipynb_checkpoints
